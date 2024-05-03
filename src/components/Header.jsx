@@ -29,7 +29,7 @@ function Header() {
     // console.log("one",productObj);
     let prodIndex = parseInt(productObj.searchId);
     // console.log("two",prodIndex);
-    if (prodIndex === -1) {
+    if (prodIndex <=0 || prodIndex>=21) {
       alert("Product Not Found");
     } else {
       navigate(`/${prodIndex}`, { state: prodIndex });
