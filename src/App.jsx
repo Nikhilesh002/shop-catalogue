@@ -7,10 +7,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/shop-catalogue/">
       <Routes>
-        <Route path="" element={<RootLayout />}>
-          <Route path="" element={<Products />} />
+        <Route path="/" element={<RootLayout />}>
+          <Route path="/" element={<Products />} />
           <Route path=":title" element={<ProductPage />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />

@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import searchIconWhite from "../imgs/searchIconWhite.png";
 import homeIcon from "../imgs/homeIcon.png";
+import shopIcon from '../imgs/shop-c.jpg';
 import "./Header.css";
 
 function Header() {
@@ -51,8 +52,9 @@ function Header() {
           <Link to="">
             <img
               className="logo text-center pt-2"
-              src="https://shorturl.at/suzMX"
+              src={shopIcon}
               alt="Oops!!"
+              height="50px"
             />
           </Link>
         </div>
