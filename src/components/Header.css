@@ -1,0 +1,20 @@
+.total {
+  background-color: #000000;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.homeIcon {
+  width: 25px;
+}
+
+.searchIcon {
+  width: 34px;
+  height: 32px;
+}
+
+.searchBar {
+  width: 80%;
+}

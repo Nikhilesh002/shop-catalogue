@@ -1,0 +1,12 @@
+.eachCol {
+  height: 410px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.prodTitle:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.577);
+}
